@@ -1,0 +1,74 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #d2b48c;
+	margin-left:20%;
+	margin-right: 20%;
+	border: 1px solid gray;
+	padding: 10px;
+	font-family: sans-serif;
+}
+
+h1{
+	color: darkblue;
+}
+
+.form{
+	padding: 0px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.name input{
+	margin: 10px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.email input{
+	margin: 10px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.form fieldset{
+	padding: 20px;
+}
+
+.dep {
+	margin: 30px;
+	border: none;
+}
+
+.dep select{
+	border: none;
+	border-radius: 5px;
+}
+
+.btn{
+display: flex;
+justify-content: center;
+}
+
+.btn input{
+	border: none;
+	border-radius: 5px;
+	color: black;
+	width: 100px;
+	height: 20px;
+}
+
+.radiobtn{
+	margin-bottom: 20px;
+}
