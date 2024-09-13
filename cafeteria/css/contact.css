@@ -1,0 +1,47 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #d2b48c;
+	margin-left:20%;
+	margin-right: 20%;
+	border: 1px solid gray;
+	padding: 10px;
+	font-family: sans-serif;
+}
+
+h1{
+	color: darkblue;
+}
+
+.form{
+	padding: 0px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form fieldset{
+	padding: 20px;
+}
+
+.dep {
+	margin: 30px;
+	border: none;
+}
+
+.btn{
+display: flex;
+justify-content: center;
+outline: none;
+border: none;
+}
+
+.radiobtn{
+	margin-bottom: 20px;
+}
